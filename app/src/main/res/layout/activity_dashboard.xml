@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Dashboard">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.gauravk.bubblenavigation.BubbleNavigationLinearView
+        android:id="@+id/navigationBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/bg_rounded"
+        android:elevation="8dp"
+        android:padding="5dp">
+
+        <com.gauravk.bubblenavigation.BubbleToggleView
+            android:id="@+id/tabPlaces"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:bt_colorActive="#81c784"
+            app:bt_colorInactive="#78909c"
+            app:bt_icon="@drawable/ic_baseline_family_restroom_24"
+            app:bt_shape="@drawable/tab_movie_color"
+            app:bt_title="Places"
+            app:bt_titlePadding="5dp"
+            app:bt_titleSize="10sp" />
+
+        <com.gauravk.bubblenavigation.BubbleToggleView
+            android:id="@+id/tabHotel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:bt_colorActive="#aa86f7"
+            app:bt_colorInactive="#78909c"
+            app:bt_icon="@drawable/ic_baseline_hotel_24"
+            app:bt_shape="@drawable/tab_tv_color"
+            app:bt_title="Hotel"
+            app:bt_titlePadding="5dp"
+            app:bt_titleSize="10sp" />
+
+        <com.gauravk.bubblenavigation.BubbleToggleView
+            android:id="@+id/tabTransport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:bt_colorActive="#f06292"
+            app:bt_colorInactive="#78909c"
+            app:bt_icon="@drawable/ic_baseline_flight_takeoff_24"
+            app:bt_shape="@drawable/tab_fav_color"
+            app:bt_title="Places"
+            app:bt_titlePadding="5dp"
+            app:bt_titleSize="10sp" />
+
+
+    </com.gauravk.bubblenavigation.BubbleNavigationLinearView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

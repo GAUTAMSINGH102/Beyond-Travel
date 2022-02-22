@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.traveliker">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Traveliker"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".Activities.Ticket"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.TransportBook"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Razorpay"
+            android:exported="true" />
+
+        <receiver
+            android:name="com.razorpay.RzpTokenReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="rzp.device_token.share" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.razorpay.CheckoutActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:theme="@style/CheckoutTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <data
+                    android:host="rzp.io"
+                    android:scheme="io.rzp" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.HotelTicket"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.AddReview"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.SeatBooking"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.HotelBook"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.UserInformation"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.TransportDetail"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.HotelDetail"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.PlaceDetailReview"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.DeleteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.TransportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Dashboard"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

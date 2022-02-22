@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_marginTop="5dp"
+    tools:context=".Activities.HotelTicket">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trasnport Booking"
+        android:textSize="40sp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/teal_700"
+        android:fontFamily="sans-serif-black"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ticketillustration"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="User Name : "
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/user_name_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gautam"
+            android:textSize="25sp"
+            android:fontFamily="@font/proximanovaregular"
+            android:textColor="@color/black"
+            android:layout_weight="2"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="User Email-id : "
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/user_email_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="gautam@gmail.com"
+            android:textSize="25sp"
+            android:fontFamily="@font/proximanovaregular"
+            android:textColor="@color/black"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="User Address : "
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/user_address_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ahmedabad"
+            android:textSize="25sp"
+            android:fontFamily="@font/proximanovaregular"
+            android:textColor="@color/black"
+            android:layout_weight="2"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="User Age : "
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/user_age_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="20"
+            android:textSize="25sp"
+            android:fontFamily="@font/proximanovaregular"
+            android:textColor="@color/black"
+            android:layout_weight="2"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="From : "
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/hotel_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ayodhya"
+            android:textSize="25sp"
+            android:fontFamily="@font/proximanovaregular"
+            android:textColor="@color/black"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="To : "
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/hotelLocation_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Faizabad"
+            android:textSize="25sp"
+            android:fontFamily="@font/proximanovaregular"
+            android:textColor="@color/black"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Date : "
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/hotelPrice_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="24 Jan 2022"
+            android:textSize="25sp"
+            android:fontFamily="@font/proximanovaregular"
+            android:textColor="@color/black"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Trasnport Price : "
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/trasnportPrice_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rs. 10,2418"
+            android:textSize="25sp"
+            android:fontFamily="@font/proximanovaregular"
+            android:textColor="@color/black"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/cancel_ticket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel Ticket"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:layout_margin="15dp"/>
+
+</LinearLayout>

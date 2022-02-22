@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="User Id : "
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/user_id_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="25sp"
+            android:fontFamily="@font/proximanovaregular"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="User Name : "
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/user_name_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gautam"
+            android:textSize="25sp"
+            android:fontFamily="@font/proximanovaregular"
+            android:textColor="@color/black"
+            android:layout_weight="2"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="User Email-id : "
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/user_email_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="gautam@gmail.com"
+            android:textSize="25sp"
+            android:fontFamily="@font/proximanovaregular"
+            android:textColor="@color/black"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="User Address : "
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/user_address_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ahmedabad"
+            android:textSize="25sp"
+            android:fontFamily="@font/proximanovaregular"
+            android:textColor="@color/black"
+            android:layout_weight="2"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="User Age : "
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/user_age_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="20"
+            android:textSize="25sp"
+            android:fontFamily="@font/proximanovaregular"
+            android:textColor="@color/black"
+            android:layout_weight="2"/>
+
+    </LinearLayout>
+
+</LinearLayout>

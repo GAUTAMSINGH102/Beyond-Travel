@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Studio Projects/Traveliker/app/src/main/res/drawable-v24/bg_rounded.xml" value="0.24102564102564103" />
+        <entry key="..\:/Android Studio Projects/Traveliker/app/src/main/res/drawable-v24/bg_search.xml" value="0.24102564102564103" />
+        <entry key="..\:/Android Studio Projects/Traveliker/app/src/main/res/drawable-v24/circular_grey_bordersolid.xml" value="0.2388888888888889" />
+        <entry key="..\:/Android Studio Projects/Traveliker/app/src/main/res/drawable/ic_email_24dp.xml" value="0.2351851851851852" />
+        <entry key="..\:/Android Studio Projects/Traveliker/app/src/main/res/drawable/ic_location_24dp.xml" value="0.2351851851851852" />
+        <entry key="..\:/Android Studio Projects/Traveliker/app/src/main/res/layout/activity_checking.xml" value="0.22864583333333333" />
+        <entry key="..\:/Android Studio Projects/Traveliker/app/src/main/res/layout/activity_dashboard.xml" value="0.22864583333333333" />
+        <entry key="..\:/Android Studio Projects/Traveliker/app/src/main/res/layout/activity_delete.xml" value="0.22864583333333333" />
+        <entry key="..\:/Android Studio Projects/Traveliker/app/src/main/res/layout/activity_hotel_book.xml" value="0.22864583333333333" />
+        <entry key="..\:/Android Studio Projects/Traveliker/app/src/main/res/layout/activity_hotel_detail.xml" value="0.22864583333333333" />
+        <entry key="..\:/Android Studio Projects/Traveliker/app/src/main/res/layout/activity_hotel_ticket.xml" value="0.22864583333333333" />
+        <entry key="..\:/Android Studio Projects/Traveliker/app/src/main/res/layout/activity_main.xml" value="0.22864583333333333" />
+        <entry key="..\:/Android Studio Projects/Traveliker/app/src/main/res/layout/activity_payment.xml" value="0.22864583333333333" />
+        <entry key="..\:/Android Studio Projects/Traveliker/app/src/main/res/layout/activity_payment_razorpay.xml" value="0.22864583333333333" />
+        <entry key="..\:/Android Studio Projects/Traveliker/app/src/main/res/layout/activity_place_detail_review.xml" value="0.22864583333333333" />
+        <entry key="..\:/Android Studio Projects/Traveliker/app/src/main/res/layout/activity_razorpay.xml" value="0.22864583333333333" />
+        <entry key="..\:/Android Studio Projects/Traveliker/app/src/main/res/layout/activity_review.xml" value="0.2125" />
+        <entry key="..\:/Android Studio Projects/Traveliker/app/src/main/res/layout/activity_seat_booking.xml" value="0.22864583333333333" />
+        <entry key="..\:/Android Studio Projects/Traveliker/app/src/main/res/layout/activity_transport.xml" value="0.22864583333333333" />
+        <entry key="..\:/Android Studio Projects/Traveliker/app/src/main/res/layout/activity_transport_book.xml" value="0.22864583333333333" />
+        <entry key="..\:/Android Studio Projects/Traveliker/app/src/main/res/layout/activity_transport_detail.xml" value="0.22864583333333333" />
+        <entry key="..\:/Android Studio Projects/Traveliker/app/src/main/res/layout/activity_user_information.xml" value="0.22864583333333333" />
+        <entry key="..\:/Android Studio Projects/Traveliker/app/src/main/res/layout/circular_grey_bordersolid.xml" value="0.22864583333333333" />
+        <entry key="..\:/Android Studio Projects/Traveliker/app/src/main/res/layout/fragment_hotel.xml" value="0.22864583333333333" />
+        <entry key="..\:/Android Studio Projects/Traveliker/app/src/main/res/layout/fragment_places.xml" value="0.22864583333333333" />
+        <entry key="..\:/Android Studio Projects/Traveliker/app/src/main/res/layout/fragment_transport.xml" value="0.22864583333333333" />
+        <entry key="..\:/Android Studio Projects/Traveliker/app/src/main/res/layout/hotel_layout.xml" value="0.22864583333333333" />
+        <entry key="..\:/Android Studio Projects/Traveliker/app/src/main/res/layout/hotel_ticket_layout.xml" value="0.2" />
+        <entry key="..\:/Android Studio Projects/Traveliker/app/src/main/res/layout/places_layout.xml" value="0.20555555555555555" />
+        <entry key="..\:/Android Studio Projects/Traveliker/app/src/main/res/layout/review_layout.xml" value="0.19444444444444445" />
+        <entry key="..\:/Android Studio Projects/Traveliker/app/src/main/res/layout/transport_layout.xml" value="0.22864583333333333" />
+        <entry key="..\:/Android Studio Projects/Traveliker/app/src/main/res/layout/user_info_layout.xml" value="0.22864583333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
